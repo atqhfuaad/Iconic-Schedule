@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/~rbnm/static/css/main.3ba80720.chunk.css",
+    "main.js": "/~rbnm/static/js/main.20da2a98.chunk.js",
+    "main.js.map": "/~rbnm/static/js/main.20da2a98.chunk.js.map",
+    "runtime-main.js": "/~rbnm/static/js/runtime-main.e3baf96d.js",
+    "runtime-main.js.map": "/~rbnm/static/js/runtime-main.e3baf96d.js.map",
+    "static/js/2.e2702ddf.chunk.js": "/~rbnm/static/js/2.e2702ddf.chunk.js",
+    "static/js/2.e2702ddf.chunk.js.map": "/~rbnm/static/js/2.e2702ddf.chunk.js.map",
+    "index.html": "/~rbnm/index.html",
+    "precache-manifest.10dcec3fa7a8557a66a8c275aa28df51.js": "/~rbnm/precache-manifest.10dcec3fa7a8557a66a8c275aa28df51.js",
+    "service-worker.js": "/~rbnm/service-worker.js",
+    "static/css/main.3ba80720.chunk.css.map": "/~rbnm/static/css/main.3ba80720.chunk.css.map",
+    "static/js/2.e2702ddf.chunk.js.LICENSE.txt": "/~rbnm/static/js/2.e2702ddf.chunk.js.LICENSE.txt",
+    "static/media/UTM_Gate.jpg": "/~rbnm/static/media/UTM_Gate.45f3797a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3baf96d.js",
+    "static/js/2.e2702ddf.chunk.js",
+    "static/css/main.3ba80720.chunk.css",
+    "static/js/main.20da2a98.chunk.js"
+  ]
+}

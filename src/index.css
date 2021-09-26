@@ -1,0 +1,255 @@
+/* Coding: inline jss
+otherwise css using mui */
+
+/* Responsive design is impossible without this! */
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+ 
+html, body{
+    width: 100vw;
+}
+
+.MuiTable, .table-title, .menu-title, .some-margin{
+    margin : 20px 0 !important;
+} 
+
+.some-miserly-margin{
+    margin : 10px 0 !important;
+}
+
+.some-great-margin{
+    margin : 15px auto !important;
+}
+
+.some-top-margin{
+    margin : 20px 0 0 !important;
+}
+
+/* tr:nth-child(even) {background-color: #f2f2f2;} */
+
+
+.paperMainGrid{
+    min-height: 100vh;
+    padding: 0 0;
+    margin: 0 0;
+    padding: 70px  0 0 !important;
+
+}
+
+.paperMiddlePart{
+    padding: 0px 30px !important; 
+    background: rgb(255,255,255);
+
+}
+.paperSidePart{
+    background-image: -o-repeating-linear-gradient(166deg, transparent 0px, transparent 1px,rgb(251,251,251) 1px, rgb(251,251,251) 3px),-o-repeating-linear-gradient(76deg, transparent 0px, transparent 1px,rgb(251,251,251) 1px, rgb(251,251,251) 3px),-o-linear-gradient(left, rgb(196,236,232),rgb(196,236,232));
+    background-image: repeating-linear-gradient(284deg, transparent 0px, transparent 1px,rgb(251,251,251) 1px, rgb(251,251,251) 3px),repeating-linear-gradient(14deg, transparent 0px, transparent 1px,rgb(251,251,251) 1px, rgb(251,251,251) 3px),-webkit-gradient(linear, left top, right top, from(rgb(196,236,232)),to(rgb(196,236,232)));
+    background-image: repeating-linear-gradient(284deg, transparent 0px, transparent 1px,rgb(251,251,251) 1px, rgb(251,251,251) 3px),repeating-linear-gradient(14deg, transparent 0px, transparent 1px,rgb(251,251,251) 1px, rgb(251,251,251) 3px),linear-gradient(90deg, rgb(196,236,232),rgb(196,236,232));     
+}
+.none{
+    display: none !important;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.timetable{
+    border: 1px solid rgb(241, 218, 218);
+    margin: 10px 0;
+    padding: 20px 20px 50px !important;
+    border-radius: 3% !important;
+}
+
+
+.MuiTypography-button:hover, .MuiIcon-root:hover, .MuiSvgIcon:hover{
+    cursor: pointer;
+}
+
+.paginationLargeSpan{
+    padding: 6px 7px !important;
+
+}
+.paginationDiv{
+    margin: 10px 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+
+.paginationSpan{
+    border-radius: 50%;
+    padding: 5px 10px;
+    /* font-size: small; */
+    -webkit-transition: background-color 4s;
+    -o-transition: background-color 4s;
+    transition: background-color 4s;
+    background-color: rgb(113, 248, 248);
+  }
+
+.paginationSpan:hover{
+    cursor: pointer;
+    color: white;
+    font-weight:bold;
+    background-color: #f1b8ff;
+}
+
+
+
+.active{
+    color: white;
+    font-weight:bold;
+    background-color: #f1b8ff !important;
+}
+
+.tableRowNoBorder td{
+    border: 0px solid black !important;
+}
+
+thead tr{
+    background-color: #b2ebf2 !important;
+    cursor: pointer;
+}
+
+thead td{
+    color: lavender !important;
+    
+}
+
+.buttonSpan svg, thead svg{
+    position: relative;
+    top: 4px
+}
+
+.buttonSpan-outlined{
+    border: 1px solid white;
+    padding: 0px 10px 1px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
+.span.spanBackButton {
+    text-decoration: none;
+    background: #e55039aa;
+    color: #ffffff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  
+  .container span.spanBackButton:hover {
+    background: #e55039;
+    cursor: pointer;
+  }
+
+  /* 
+sm, small: 600px
+md, medium: 960px
+lg, large: 1280px
+xl, extra-large: 1920px 
+*/
+
+/*
+    ABOVE SCREEN: MIN-WIDTH
+*/
+@media screen and (min-width: 960px) {
+    .md-above-invisible{
+        display: none;
+    }
+    
+}
+/*
+    BELOW SCREEN: MAX-WIDTH
+*/
+@media screen and (max-width: 960px) {
+    .md-below-invisible{
+        display: none;
+    }
+    .MuiBox-root,
+    .MuiBox-root-1,
+    .MuiBox-root-2,
+    .MuiBox-root-3,
+    .MuiBox-root-4,
+    .MuiBox-root-5,
+    .MuiBox-root-6{
+        padding:0 1em!important;
+        margin: 0 !important;
+    }
+    /* .MuiTableCell-root, .MuiTableCell-head{
+        font-size: 1px !important;
+    } */
+  
+    .MuiSvgIcon{
+        font-size: 2px !important;
+    }
+    .paginationDiv {
+        display: block;
+        margin: 15px auto;
+        text-align: center;
+
+    }
+    .paginationDivWrapper{
+     margin: 15px 0;
+    }
+
+    .paperMiddlePart{
+        padding: 0px 10px !important;     
+    }
+    .MuiDrawer-root .MuiTypography-body2 {
+        font-size: 1.0rem;
+    }
+    /* .MuiDrawer-root .MuiTypography-body2 {
+        font-size: 1.0rem;
+    }
+    .MuiTypography-body1, .MuiTypography-body2{
+        font-size: 1.1rem !important;
+    } */
+}
+
+
+@media screen and (max-width: 640px) {
+    .paperCustom{
+        margin: 0vh;
+    }    
+    .paginationDiv {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .paginationDivWrapper{
+        margin: 15px 0;
+      }
+    /* .paddingGiver{
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 0px 10px !important; 
+    } */
+    .MuiTableCell-sizeSmall {
+        padding: 1px !important;
+        font-size: 0.75rem !important;
+    }
+    .grid-container{
+        -webkit-box-sizing: border-box !important;
+                box-sizing: border-box !important;
+    }
+    .MuiToolbar-gutters{
+        padding: 0px !important;
+    }
+    .MuiDrawer-root .MuiTypography-body2 {
+        font-size: 0.9rem;
+    }
+}
+

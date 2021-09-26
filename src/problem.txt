@@ -1,0 +1,19 @@
+To increase the file watchers limit we need to do certain things, first
+enter the following command in your terminal
+
+cat /proc/sys/fs/inotify/max_user_watches
+
+You might get output like this some integer.
+8192
+
+Now increase the limit by entering the next command
+
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
+
+The above command will set your file watcher limit to 524288. To see whether it is set or not, type
+
+sudo sysctl -p
+
+output
+fs.inotify.max_user_watches = 524288
+
